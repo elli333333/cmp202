@@ -62,7 +62,7 @@ int main(int argc, char* argv[]) {
     std::chrono::high_resolution_clock::time_point sys_start
             = std::chrono::high_resolution_clock::now();
 
-    int runs = 1000;
+    int runs = 1;
     std::vector<int> times;
     times.reserve(runs);
 
