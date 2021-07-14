@@ -55,7 +55,7 @@ private:
 
 
 public:
-    uint thread_count = 7;//std::thread::hardware_concurrency();
+    uint thread_count = std::thread::hardware_concurrency();
 
     //this needs to be a multiple of 4 for the avx implementation to work:
     const int chunk_size = 4;

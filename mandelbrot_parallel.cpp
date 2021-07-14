@@ -67,6 +67,7 @@ int main(int argc, char* argv[]) {
     times.reserve(runs);
 
     mandelbrot mandelbrot_data{};
+    mandelbrot_data.top = 0.118378;
     mandelbrot_data.bottom = 0.134488;
     mandelbrot_data.left = -0.751085;
     mandelbrot_data.right = -0.734975;
